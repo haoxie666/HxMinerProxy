@@ -42,6 +42,9 @@
 root用户直接执行以下命令, 根据提示选择对应功能即可。
 
 bash <(curl -s -L https://raw.githubusercontent.com/haoxie666/HxMinerProxy/main/linux-install.sh)
+
+web后台账号admin 密码admin123
+
 ```
 <img src="./image/t12.png" alt="Logo">
 
@@ -54,6 +57,8 @@ bash <(curl -s -L https://raw.githubusercontent.com/haoxie666/HxMinerProxy/main/
 
 # Windows
 下载完后直接启动即可，程序自带进程守护
+
+web后台账号admin 密码admin123
 
 <a href="https://github.com/haoxie666/HxMinerProxy/tree/main/Windows-64">下载地址</a>
 
