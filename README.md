@@ -30,6 +30,39 @@
   </p>
 </div>
 
+<!-- GETTING STARTED -->
+<p id="install"></p>
+
+
+<p id="linux"></p>
+
+# Linux
+
+```
+root用户直接执行以下命令, 根据提示选择对应功能即可。
+
+bash <(curl -s -L https://raw.githubusercontent.com/haoxie666/HxMinerProxy/main/linux-install.sh)
+```
+<img src="./image/t12.png" alt="Logo">
+
+支持的Linux
+
+* Ubuntu 64 18.04+
+* Centos 64 7+
+
+<p id="windows"></p>
+
+# Windows
+下载完后直接启动即可，程序自带进程守护
+
+<a href="https://github.com/haoxie666/HxMinerProxy/tree/main/Windows-64">下载地址</a>
+
+
+<p id="question"></p>
+<p id="about"></p>
+
+___
+
 # 导航
 
 <ol>
@@ -249,38 +282,6 @@
 <img src="./image/tinified/t8.png" alt="Logo">
 <img src="./image/tinified/t9.png" alt="Logo">
 
-<!-- GETTING STARTED -->
-<p id="install"></p>
-
-
-<p id="linux"></p>
-
-# Linux
-
-```
-root用户直接执行以下命令, 根据提示选择对应功能即可。
-
-bash <(curl -s -L https://raw.githubusercontent.com/haoxie666/HxMinerProxy/main/linux-install.sh)
-```
-<img src="./image/t12.png" alt="Logo">
-
-支持的Linux
-
-* Ubuntu 64 18.04+
-* Centos 64 7+
-
-<p id="windows"></p>
-
-# Windows
-下载完后直接启动即可，程序自带进程守护
-
-<a href="https://github.com/haoxie666/HxMinerProxy/tree/main/Windows-64">下载地址</a>
-
-
-<p id="question"></p>
-<p id="about"></p>
-
-___
 
 <span id="q0"></span>
 > # 常见问题
