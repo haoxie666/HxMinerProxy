@@ -1,30 +1,27 @@
 #!/bin/bash
-# Author: KT007007
-# github: https://github.com/kt007007
+# Author: haoxie666
+# github: https://github.com/haoxie666
 
 VERSION="cu-firs-1.1.2"
 
-DOWNLOAD_HOST="https://github.com/kt007007/KTMinerProxy/raw/main/Linux-64"
+DOWNLOAD_HOST="https://github.com/haoxie666/HxMinerProxy/raw/main/Linux-64"
 
-PATH_KT="/root/ktmproxy"
+PATH_KT="/root/HXproxy"
 
-PATH_EXEC="ktproxy"
+PATH_EXEC="HXroxy"
 
-PATH_CACHE="/root/ktmproxy/.cache"
+PATH_CACHE="/root/HXmproxy/.cache"
 
-PATH_CONFIG="/root/ktmproxy/.env"
+PATH_CONFIG="/root/HXmproxy/.env"
 
-PATH_NOHUP="/root/ktmproxy/nohup.out"
-PATH_ERR="/root/ktmproxy/err.log"
+PATH_NOHUP="/root/HXmproxy/nohup.out"
+PATH_ERR="/root/HXmproxy/err.log"
 
 
 PATH_TURN_ON="/etc/profile.d"
-PATH_TURN_ON_SH="/etc/profile.d/ktm.sh"
+PATH_TURN_ON_SH="/etc/profile.d/HX.sh"
 
 ISSUE() {
-    echo "1.0.0"
-    echo "1.1.0"
-    echo "1.1.1"
     echo "1.1.2"
 }
 
@@ -117,7 +114,7 @@ clearlog() {
 }
 
 stop() {
-    colorEcho $BLUE "终止KTMinerProxy进程"
+    colorEcho $BLUE "终止HXMinerProxy进程"
     killall ktproxy
     sleep 1
 }
@@ -199,7 +196,7 @@ installapp() {
         VERSION="$1"
     fi
     
-    colorEcho ${GREEN} "开始安装KTPROXY-V-${VERSION}"
+    colorEcho ${GREEN} "开始安装HXROXY-V-${VERSION}"
 
     if [[ `command -v yum` ]];then
         colorEcho ${BLUE} "关闭防火墙"
@@ -238,8 +235,8 @@ installapp() {
 
     checkProcess "ktproxy"
     if [ $? -eq 1 ]; then
-        colorEcho ${RED} "发现正在运行的KTMinerProxy, 需要停止才可继续安装。"
-        colorEcho ${YELLOW} "输入1停止正在运行的KTMinerProxy并且继续安装, 输入2取消安装。"
+        colorEcho ${RED} "发现正在运行的HXMinerProxy, 需要停止才可继续安装。"
+        colorEcho ${YELLOW} "输入1停止正在运行的HXMinerProxy并且继续安装, 输入2取消安装。"
 
         read -p "$(echo -e "请选择[1-2]：")" choose
         case $choose in
@@ -280,7 +277,7 @@ installapp() {
 
     colorEcho $BLUE "拉取程序"
     # wget -P $PATH_KT "${DOWNLOAD_HOST}/${ORIGIN_EXEC}" -O "${PATH_KT}/${PATH_EXEC}" 1>/dev/null
-    wget -P $PATH_KT "${DOWNLOAD_HOST}/ktproxy_v${VERSION}_linux" -O "${PATH_KT}/${PATH_EXEC}" 1>/dev/null
+    wget -P $PATH_KT "${DOWNLOAD_HOST}/HXproxy_v${VERSION}_linux" -O "${PATH_KT}/${PATH_EXEC}" 1>/dev/null
 
     filterResult $? "拉取程序 ktproxy_v${VERSION}_linux"
 
@@ -336,12 +333,12 @@ check_limit() {
 check_hub() {
     # cd $PATH_KT
     colorEcho ${YELLOW} "按住CTRL+C后台运行"
-    tail -f /root/ktmproxy/nohup.out
+    tail -f /root/HXproxy/nohup.out
 }
 
 check_err() {
     colorEcho ${YELLOW} "按住CTRL+C后台运行"
-    tail -f /root/ktmproxy/err.log
+    tail -f /root/HXproxy/err.log
 }
 
 install_target() {
@@ -371,7 +368,7 @@ set_port() {
 }
 
 echo "-------------------------------------------------------"
-colorEcho ${GREEN} "欢迎使用KTMinerProxy安装工具, 请输入操作号继续。"
+colorEcho ${GREEN} "欢迎使用HXMinerProxy安装工具, 请输入操作号继续。"
 
 echo ""
 echo "1、安装"
