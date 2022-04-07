@@ -6,7 +6,7 @@
 # HxMinerProxy
 
 <img src="https://raw.githubusercontent.com/haoxie666/HxMinerProxy/main/image/logo.png#gh-dark-mode-only" alt="Logo" width="200" height="200">
-<img src="./image/t12.png" alt="Logo">
+
 <img src="https://raw.githubusercontent.com/haoxie666/HxMinerProxy/main/image/slogo.png#gh-light-mode-only" alt="Logo" width="200" height="200">
 
   <!-- ![GitHub Light](https://raw.githubusercontent.com/haoxie666/HxMinerProxy/main/image/logo.png#gh-dark-mode-only)
@@ -29,7 +29,7 @@
     TG：<a href="https://t.me/+JUwWdBE4HHswYTZl">https://t.me/+JUwWdBE4HHswYTZl</a>
   </p>
 </div>
-
+<img src="./image/t13.png" alt="ruanjian">
 <!-- GETTING STARTED -->
 <p id="install"></p>
 
