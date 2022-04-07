@@ -35,8 +35,9 @@
 
 
 <p id="linux"></p>
-<h2>WEB后台默认账号:admin,WEB后台默认密码：admin123</h2>
+
 # Linux
+
 ```
 root用户直接执行以下命令, 根据提示选择对应功能即可。
 
@@ -50,7 +51,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/haoxie666/HxMinerProxy/main/
 * Centos 64 7+
 
 <p id="windows"></p>
-<h2>WEB后台默认账号:admin,WEB后台默认密码：admin123</h2>
+
 # Windows
 下载完后直接启动即可，程序自带进程守护
 
