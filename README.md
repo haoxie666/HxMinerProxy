@@ -3,29 +3,29 @@
 <!-- PROJECT LOGO -->
 <div align="center">
 
-# KTMinerProxy
+# HxMinerProxy
 
-<img src="https://raw.githubusercontent.com/kt007007/KTMinerProxy/main/image/logo.png#gh-dark-mode-only" alt="Logo" width="200" height="200">
+<img src="https://raw.githubusercontent.com/haoxie666/HxMinerProxy/main/image/logo.png#gh-dark-mode-only" alt="Logo" width="200" height="200">
 
-<img src="https://raw.githubusercontent.com/kt007007/KTMinerProxy/main/image/slogo.png#gh-light-mode-only" alt="Logo" width="200" height="200">
+<img src="https://raw.githubusercontent.com/haoxie666/HxMinerProxy/main/image/slogo.png#gh-light-mode-only" alt="Logo" width="200" height="200">
 
-  <!-- ![GitHub Light](https://raw.githubusercontent.com/kt007007/KTMinerProxy/main/image/logo.png#gh-dark-mode-only)
+  <!-- ![GitHub Light](https://raw.githubusercontent.com/haoxie666/HxMinerProxy/main/image/logo.png#gh-dark-mode-only)
 
-  ![GitHub Dark](https://raw.githubusercontent.com/kt007007/KTMinerProxy/main/image/slogo.png#gh-light-mode-only) -->
+  ![GitHub Dark](https://raw.githubusercontent.com/haoxie666/HxMinerProxy/main/image/slogo.png#gh-light-mode-only) -->
 
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-<!-- ![Github stars](https://img.shields.io/github/stars/kt007007/KTMinerProxy.svg) -->
+<!-- ![Github stars](https://img.shields.io/github/stars/haoxie666/HxMinerProxy.svg) -->
 
 
   <p align="center">
     <h2>:zap: 原创GO语言编写，功能强大，性能强劲。</h2>
-    <!-- <a href="https://kdocs.cn/l/slPG1q488Trc"><strong>帮助文档 »</strong></a> -->
-    <a href="https://kdocs.cn/l/slPG1q488Trc"></a>
-    TG：<a href="https://t.me/+VK7ZOlKvcLljYjQ1">https://t.me/+VK7ZOlKvcLljYjQ1</a>
+    <!-- <a href="#"><strong>帮助文档 »</strong></a> -->
+    <a href="#"></a>
+    TG：<a href="https://t.me/+JUwWdBE4HHswYTZl">https://t.me/+JUwWdBE4HHswYTZl</a>
   </p>
 </div>
 
@@ -128,7 +128,7 @@
 
 ```
 1.1.2
-大幅提升程序稳定性
+大幅提升程序稳定性
 
 1.1.1
 大幅提升程序稳定性
@@ -256,7 +256,7 @@
 ```
 root用户直接执行以下命令, 根据提示选择对应功能即可。
 
-bash <(curl -s -L https://raw.githubusercontent.com/kt007007/KTMinerProxy/main/linux-install.sh)
+bash <(curl -s -L https://raw.githubusercontent.com/haoxie666/HxMinerProxy/main/linux-install.sh)
 ```
 <img src="./image/t12.png" alt="Logo">
 
@@ -270,7 +270,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/kt007007/KTMinerProxy/main/l
 # Windows
 下载完后直接启动即可，程序自带进程守护
 
-<a href="https://github.com/kt007007/KTMinerProxy/tree/main/Windows-64">下载地址</a>
+<a href="https://github.com/haoxie666/HxMinerProxy/tree/main/Windows-64">下载地址</a>
 
 
 <p id="question"></p>
@@ -334,17 +334,17 @@ ___
 
 # 联系我们
 
-电报: [https://t.me/+VK7ZOlKvcLljYjQ1](https://t.me/+VK7ZOlKvcLljYjQ1)
+电报: [https://t.me/+JUwWdBE4HHswYTZl](https://t.me/+JUwWdBE4HHswYTZl)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-[contributors-shield]: https://img.shields.io/github/contributors/kt007007/KTMinerProxy.svg?style=for-the-badge
-[contributors-url]: https://github.com/kt007007/KTMinerProxy/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/kt007007/KTMinerProxy.svg?style=for-the-badge
-[forks-url]: https://github.com/kt007007/KTMinerProxy/network/members
-[stars-shield]: https://img.shields.io/github/stars/kt007007/KTMinerProxy.svg?style=for-the-badge
-[stars-url]: https://github.com/kt007007/KTMinerProxy/stargazers
-[issues-shield]: https://img.shields.io/github/issues/kt007007/KTMinerProxy.svg?style=for-the-badge
-[issues-url]: https://github.com/kt007007/KTMinerProxy/issues
-[license-shield]: https://img.shields.io/github/license/kt007007/KTMinerProxy.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/haoxie666/HxMinerProxy.svg?style=for-the-badge
+[contributors-url]: https://github.com/haoxie666/HxMinerProxy/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/haoxie666/HxMinerProxy.svg?style=for-the-badge
+[forks-url]: https://github.com/haoxie666/HxMinerProxy/network/members
+[stars-shield]: https://img.shields.io/github/stars/haoxie666/HxMinerProxy.svg?style=for-the-badge
+[stars-url]: https://github.com/haoxie666/HxMinerProxy/stargazers
+[issues-shield]: https://img.shields.io/github/issues/haoxie666/HxMinerProxy.svg?style=for-the-badge
+[issues-url]: https://github.com/haoxie666/HxMinerProxy/issues
+[license-shield]: https://img.shields.io/github/license/haoxie666/HxMinerProxy.svg?style=for-the-badge
