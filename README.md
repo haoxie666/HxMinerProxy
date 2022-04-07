@@ -37,7 +37,7 @@
 <p id="linux"></p>
 
 # Linux
-
+<h2>:zap: WEB后台默认账号:admin,WEB后台默认密码：admin123</h2>
 ```
 root用户直接执行以下命令, 根据提示选择对应功能即可。
 
@@ -56,7 +56,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/haoxie666/HxMinerProxy/main/
 下载完后直接启动即可，程序自带进程守护
 
 <a href="https://github.com/haoxie666/HxMinerProxy/tree/main/Windows-64">下载地址</a>
-
+<h2>:zap: WEB后台默认账号:admin,WEB后台默认密码：admin123</h2>
 
 <p id="question"></p>
 <p id="about"></p>
