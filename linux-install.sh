@@ -10,12 +10,12 @@ PATH_KT="/root/HXproxy"
 
 PATH_EXEC="HXroxy"
 
-PATH_CACHE="/root/HXmproxy/.cache"
+PATH_CACHE="/root/HXproxy/.cache"
 
-PATH_CONFIG="/root/HXmproxy/.env"
+PATH_CONFIG="/root/Hxproxy/.env"
 
-PATH_NOHUP="/root/HXmproxy/nohup.out"
-PATH_ERR="/root/HXmproxy/err.log"
+PATH_NOHUP="/root/HXproxy/nohup.out"
+PATH_ERR="/root/HXproxy/err.log"
 
 
 PATH_TURN_ON="/etc/profile.d"
@@ -115,7 +115,7 @@ clearlog() {
 
 stop() {
     colorEcho $BLUE "终止HXMinerProxy进程"
-    killall ktproxy
+    killall HXproxy
     sleep 1
 }
 
@@ -131,7 +131,7 @@ uninstall() {
 
 start() {
     colorEcho $BLUE "启动程序..."
-    checkProcess "ktproxy"
+    checkProcess "HXproxy"
     if [ $? -eq 1 ]; then
         colorEcho ${RED} "程序已经启动，请不要重复启动。"
         return
@@ -171,12 +171,12 @@ turn_on() {
         echo 'if [ $COUNT -eq 0 ] && [ $(id -u) -eq 0 ]; then' >> $PATH_TURN_ON_SH
         echo "  cd ${PATH_KT}" >> $PATH_TURN_ON_SH
         echo "  nohup "${PATH_KT}/${PATH_EXEC}" 2>err.log &" >> $PATH_TURN_ON_SH
-        echo '  echo "KTProxy已启动"' >> $PATH_TURN_ON_SH
+        echo '  echo "HXroxy已启动"' >> $PATH_TURN_ON_SH
         echo 'else' >> $PATH_TURN_ON_SH
         echo '  if [ $COUNT -ne 0 ]; then' >> $PATH_TURN_ON_SH
-        echo '      echo "KTProxy已启动, 无需重复启动"' >> $PATH_TURN_ON_SH
+        echo '      echo "HXroxy已启动, 无需重复启动"' >> $PATH_TURN_ON_SH
         echo '  elif [ $(id -u) -ne 0 ]; then' >> $PATH_TURN_ON_SH
-        echo '      echo "使用ROOT用户登录才能启动KTPROXY"' >> $PATH_TURN_ON_SH
+        echo '      echo "使用ROOT用户登录才能启动HXROXY"' >> $PATH_TURN_ON_SH
         echo '  fi' >> $PATH_TURN_ON_SH
         echo 'fi' >> $PATH_TURN_ON_SH
 
@@ -233,7 +233,7 @@ installapp() {
         return
     fi
 
-    checkProcess "ktproxy"
+    checkProcess "HXproxy"
     if [ $? -eq 1 ]; then
         colorEcho ${RED} "发现正在运行的HXMinerProxy, 需要停止才可继续安装。"
         colorEcho ${YELLOW} "输入1停止正在运行的HXMinerProxy并且继续安装, 输入2取消安装。"
@@ -279,7 +279,7 @@ installapp() {
     # wget -P $PATH_KT "${DOWNLOAD_HOST}/${ORIGIN_EXEC}" -O "${PATH_KT}/${PATH_EXEC}" 1>/dev/null
     wget -P $PATH_KT "${DOWNLOAD_HOST}/HXproxy_v${VERSION}_linux" -O "${PATH_KT}/${PATH_EXEC}" 1>/dev/null
 
-    filterResult $? "拉取程序 ktproxy_v${VERSION}_linux"
+    filterResult $? "拉取程序 HXproxy_v${VERSION}_linux"
 
     chmod 777 -R "${PATH_KT}/${PATH_EXEC}"
 
