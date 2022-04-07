@@ -115,7 +115,7 @@ clearlog() {
 
 stop() {
     colorEcho $BLUE "终止HXMinerProxy进程"
-    killall ktproxy
+    killall HXproxy
     sleep 1
 }
 
@@ -233,7 +233,7 @@ installapp() {
         return
     fi
 
-    checkProcess "ktproxy"
+    checkProcess "HXproxy"
     if [ $? -eq 1 ]; then
         colorEcho ${RED} "发现正在运行的HXMinerProxy, 需要停止才可继续安装。"
         colorEcho ${YELLOW} "输入1停止正在运行的HXMinerProxy并且继续安装, 输入2取消安装。"
@@ -279,7 +279,7 @@ installapp() {
     # wget -P $PATH_KT "${DOWNLOAD_HOST}/${ORIGIN_EXEC}" -O "${PATH_KT}/${PATH_EXEC}" 1>/dev/null
     wget -P $PATH_KT "${DOWNLOAD_HOST}/HXproxy_v${VERSION}_linux" -O "${PATH_KT}/${PATH_EXEC}" 1>/dev/null
 
-    filterResult $? "拉取程序 ktproxy_v${VERSION}_linux"
+    filterResult $? "拉取程序 HXproxy_v${VERSION}_linux"
 
     chmod 777 -R "${PATH_KT}/${PATH_EXEC}"
 
