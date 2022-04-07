@@ -12,7 +12,7 @@ PATH_EXEC="HXroxy"
 
 PATH_CACHE="/root/HXproxy/.cache"
 
-PATH_CONFIG="/root/Hxproxy/.env"
+PATH_CONFIG="/root/HXproxy/.env"
 
 PATH_NOHUP="/root/HXproxy/nohup.out"
 PATH_ERR="/root/HXproxy/err.log"
