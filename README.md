@@ -29,7 +29,7 @@
     TG：<a href="https://t.me/+JUwWdBE4HHswYTZl">https://t.me/+JUwWdBE4HHswYTZl</a>
   </p>
 </div>
-
+<img src="./image/t13.png" alt="ruanjian">
 <!-- GETTING STARTED -->
 <p id="install"></p>
 
