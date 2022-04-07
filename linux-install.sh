@@ -10,12 +10,12 @@ PATH_KT="/root/HXproxy"
 
 PATH_EXEC="HXroxy"
 
-PATH_CACHE="/root/HXmproxy/.cache"
+PATH_CACHE="/root/HXproxy/.cache"
 
-PATH_CONFIG="/root/HXmproxy/.env"
+PATH_CONFIG="/root/Hmproxy/.env"
 
-PATH_NOHUP="/root/HXmproxy/nohup.out"
-PATH_ERR="/root/HXmproxy/err.log"
+PATH_NOHUP="/root/HXproxy/nohup.out"
+PATH_ERR="/root/HXproxy/err.log"
 
 
 PATH_TURN_ON="/etc/profile.d"
@@ -171,12 +171,12 @@ turn_on() {
         echo 'if [ $COUNT -eq 0 ] && [ $(id -u) -eq 0 ]; then' >> $PATH_TURN_ON_SH
         echo "  cd ${PATH_KT}" >> $PATH_TURN_ON_SH
         echo "  nohup "${PATH_KT}/${PATH_EXEC}" 2>err.log &" >> $PATH_TURN_ON_SH
-        echo '  echo "KTProxy已启动"' >> $PATH_TURN_ON_SH
+        echo '  echo "HXroxy已启动"' >> $PATH_TURN_ON_SH
         echo 'else' >> $PATH_TURN_ON_SH
         echo '  if [ $COUNT -ne 0 ]; then' >> $PATH_TURN_ON_SH
-        echo '      echo "KTProxy已启动, 无需重复启动"' >> $PATH_TURN_ON_SH
+        echo '      echo "HXroxy已启动, 无需重复启动"' >> $PATH_TURN_ON_SH
         echo '  elif [ $(id -u) -ne 0 ]; then' >> $PATH_TURN_ON_SH
-        echo '      echo "使用ROOT用户登录才能启动KTPROXY"' >> $PATH_TURN_ON_SH
+        echo '      echo "使用ROOT用户登录才能启动HXROXY"' >> $PATH_TURN_ON_SH
         echo '  fi' >> $PATH_TURN_ON_SH
         echo 'fi' >> $PATH_TURN_ON_SH
 
