@@ -12,7 +12,7 @@ PATH_EXEC="HXroxy"
 
 PATH_CACHE="/root/HXproxy/.cache"
 
-PATH_CONFIG="/root/Hmproxy/.env"
+PATH_CONFIG="/root/Hxproxy/.env"
 
 PATH_NOHUP="/root/HXproxy/nohup.out"
 PATH_ERR="/root/HXproxy/err.log"
@@ -131,7 +131,7 @@ uninstall() {
 
 start() {
     colorEcho $BLUE "启动程序..."
-    checkProcess "ktproxy"
+    checkProcess "HXproxy"
     if [ $? -eq 1 ]; then
         colorEcho ${RED} "程序已经启动，请不要重复启动。"
         return
