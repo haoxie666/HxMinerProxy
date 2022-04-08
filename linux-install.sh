@@ -115,7 +115,7 @@ clearlog() {
 
 stop() {
     colorEcho $BLUE "终止HXMinerProxy进程"
-    killall HXproxy
+    killall HXroxy
     sleep 1
 }
 
@@ -131,7 +131,7 @@ uninstall() {
 
 start() {
     colorEcho $BLUE "启动程序..."
-    checkProcess "HXproxy"
+    checkProcess "HXroxy"
     if [ $? -eq 1 ]; then
         colorEcho ${RED} "程序已经启动，请不要重复启动。"
         return
@@ -233,7 +233,7 @@ installapp() {
         return
     fi
 
-    checkProcess "HXproxy"
+    checkProcess "HXroxy"
     if [ $? -eq 1 ]; then
         colorEcho ${RED} "发现正在运行的HXMinerProxy, 需要停止才可继续安装。"
         colorEcho ${YELLOW} "输入1停止正在运行的HXMinerProxy并且继续安装, 输入2取消安装。"
