@@ -46,7 +46,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/haoxie666/HxMinerProxy/main/
 web后台账号admin 密码admin123
 
 国内服务器下载地址：
-bash <(curl -s -L https://cdn.jsdelivr.net/gh/haoxie666/HxMinerProxy@main/linux-install.sh)
+暂无 配置中
 
 ```
 <img src="./image/t12.png" alt="Logo">
