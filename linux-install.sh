@@ -2,7 +2,7 @@
 # Author: haoxie666
 # github: https://github.com/haoxie666
 
-VERSION="cu-firs-1.1.2.1"
+VERSION="1.1.5"
 
 DOWNLOAD_HOST="https://github.com/haoxie666/HxMinerProxy/raw/main/Linux-64"
 
@@ -23,6 +23,7 @@ PATH_TURN_ON_SH="/etc/profile.d/HX.sh"
 
 ISSUE() {
     echo "1.1.2.1"
+    echo "1.1.5"
 }
 
 colorEcho(){
@@ -154,7 +155,7 @@ start() {
 }
 
 update() {
-    installapp cu-firs-1.1.2.1
+    installapp cu-firs-1.1.5
 }
 
 turn_on() {
@@ -394,7 +395,7 @@ read -p "$(echo -e "请选择[1-14]：")" choose
 
 case $choose in
 1)
-    installapp cu-firs-1.1.2.1
+    installapp cu-firs-1.1.5
     ;;
 2)
     uninstall
