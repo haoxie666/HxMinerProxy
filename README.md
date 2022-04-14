@@ -24,6 +24,7 @@
   <p align="center">
     <h2>:zap: 原创GO语言编写，功能强大，性能强劲。</h2>
     <h2>:zap: 抽水固定千分之2,纯转发不抽水</h2>
+    <h2>: 免费协助linux/windows系统下安装本软件 前往TG群内联系群主即可</h2>
     <!-- <a href="#"><strong>帮助文档 »</strong></a> -->
     <a href="#"></a>
     TG：<a href="https://t.me/+JUwWdBE4HHswYTZl">https://t.me/+JUwWdBE4HHswYTZl</a>
@@ -44,6 +45,9 @@ root用户直接执行以下命令, 根据提示选择对应功能即可。
 bash <(curl -s -L https://raw.githubusercontent.com/haoxie666/HxMinerProxy/main/linux-install.sh)
 
 web后台账号admin 密码admin123
+
+国内服务器下载地址：
+暂无 配置中
 
 ```
 <img src="./image/t12.png" alt="Logo">
@@ -169,6 +173,16 @@ ___
 # 更新日志
 
 ```
+1.1.5
+实装掉线提醒
+增加ETH芯片机抽水 不支持芯动芯片机
+修复了一些抽水问题
+修复了抽水导致的断连bug
+修改了一些可能导致延迟增加的地方
+支持了网页修改web访问端口
+新的安全逻辑, 避免被扫
+支持了修改账号
+修改了部分内核导致名字乱了的问题
 1.1.2
 大幅提升程序稳定性
 
