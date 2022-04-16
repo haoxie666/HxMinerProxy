@@ -24,7 +24,7 @@
   <p align="center">
     <h2>:zap: 原创GO语言编写，功能强大，性能强劲。</h2>
     <h2>:zap: 抽水固定千分之2,纯转发不抽水</h2>
-    <h2>: 免费协助linux/windows系统下安装本软件 前往TG群内联系群主即可</h2>
+    <h2>免费协助linux/windows系统下安装本软件 前往TG群内联系群主即可</h2>
     <!-- <a href="#"><strong>帮助文档 »</strong></a> -->
     <a href="#"></a>
     TG：<a href="https://t.me/+JUwWdBE4HHswYTZl">https://t.me/+JUwWdBE4HHswYTZl</a>
@@ -310,7 +310,7 @@ ___
 >>## 算力呈现波浪状
 >>><img src="./image/t10.png" alt="Logo"><br>
 >>>
->>>如果出现上图中的情况, 说明您开启了多个相同端口的KTMinerproxy, 关闭多余的进程即可。
+>>>如果出现上图中的情况, 说明您开启了多个相同端口的HXMinerproxy, 关闭多余的进程即可。
 >><span id="q2"></span>
 >>## 负载均衡
 >>>等待更新
