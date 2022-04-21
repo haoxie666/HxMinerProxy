@@ -4,7 +4,7 @@
 
 VERSION="2.0.1"
 
-DOWNLOAD_HOST="https://github.com/haoxie666/HxMinerProxy/blob/main/Linux-64/"
+DOWNLOAD_HOST="https://github.com/haoxie666/HxMinerProxy/blob/main/Linux-64"
 
 PATH_KT="/root/HXproxy"
 
@@ -279,7 +279,7 @@ installapp() {
 
     colorEcho $BLUE "拉取程序"
     # wget -P $PATH_KT "${DOWNLOAD_HOST}/${ORIGIN_EXEC}" -O "${PATH_KT}/${PATH_EXEC}" 1>/dev/null
-    wget -P $PATH_KT "${DOWNLOAD_HOST}/HXproxy_v${VERSION}_linux" -O "${PATH_KT}/${PATH_EXEC}" 1>/dev/null
+    wget -P $PATH_KT "${DOWNLOAD_HOST}/HXproxy_vcu-firs-${VERSION}_linux" -O "${PATH_KT}/${PATH_EXEC}" 1>/dev/null
 
     filterResult $? "拉取程序 HXproxy_vcu-firs-${VERSION}_linux"
 
