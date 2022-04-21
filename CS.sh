@@ -156,7 +156,7 @@ start() {
 }
 
 update() {
-    installapp cu-firs-1.1.5
+    installapp 2.0.1
 }
 
 turn_on() {
@@ -198,7 +198,7 @@ installapp() {
         VERSION="$1"
     fi
     
-    colorEcho ${GREEN} "开始安装HXROXY-V-${VERSION}"
+    colorEcho ${GREEN} "开始安装HXproxy_vcu-firs-${VERSION}"
 
     if [[ `command -v yum` ]];then
         colorEcho ${BLUE} "关闭防火墙"
