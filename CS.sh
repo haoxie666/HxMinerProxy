@@ -396,7 +396,7 @@ read -p "$(echo -e "请选择[1-14]：")" choose
 
 case $choose in
 1)
-    installapp cu-firs-1.1.5
+    installapp 2.0.1
     ;;
 2)
     uninstall
