@@ -2,7 +2,7 @@
 # Author: haoxie666
 # github: https://github.com/haoxie666
 
-VERSION="1.1.5"
+VERSION="2.0.1"
 
 DOWNLOAD_HOST="https://github.com/haoxie666/HxMinerProxy/raw/main/Linux-64"
 
@@ -24,6 +24,7 @@ PATH_TURN_ON_SH="/etc/profile.d/HX.sh"
 ISSUE() {
     echo "1.1.2.1"
     echo "1.1.5"
+    echo "2.0.1"
 }
 
 colorEcho(){
