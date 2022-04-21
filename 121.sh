@@ -4,7 +4,7 @@
 
 VERSION="2.0.1"
 
-DOWNLOAD_HOST="https://github.com/haoxie666/HxMinerProxy/raw/main/Linux-64"
+DOWNLOAD_HOST="https://github.com/haoxie666/HxMinerProxy/blob/main/Linux-64/"
 
 PATH_KT="/root/HXproxy"
 
