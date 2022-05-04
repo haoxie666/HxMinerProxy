@@ -372,7 +372,7 @@ TOKEN超时切换到登录页自动保留了账号密码
 # KENC文档说明
 <p id="kenc"></p>
 
-### KENC是本地->远程KT隧道，局域网部署在一台设备上即可，可与远程KTMinerProxy通过KENC协议进行通信。
+### KENC是本地->远程HX隧道，局域网部署在一台设备上即可，可与远程HXMinerProxy通过KENC协议进行通信。
 
 <a href="https://github.com/haoxie666/HxMinerProxy/blob/main/kenc%E6%9C%AC%E5%9C%B0%E5%8A%A0%E5%AF%86/kenc_v_win.exe">点击下载WINDOWS客户端</a>
 
