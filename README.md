@@ -4,16 +4,10 @@
 <div align="center">
 
 # HxMinerProxy
-
 <img src="https://raw.githubusercontent.com/haoxie666/HxMinerProxy/main/image/logo.png#gh-dark-mode-only" alt="Logo" width="200" height="200">
-
 <img src="https://raw.githubusercontent.com/haoxie666/HxMinerProxy/main/image/slogo.png#gh-light-mode-only" alt="Logo" width="200" height="200">
-
   <!-- ![GitHub Light](https://raw.githubusercontent.com/haoxie666/HxMinerProxy/main/image/logo.png#gh-dark-mode-only)
-
   ![GitHub Dark](https://raw.githubusercontent.com/haoxie666/HxMinerProxy/main/image/slogo.png#gh-light-mode-only) -->
-
-
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
