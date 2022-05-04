@@ -25,7 +25,7 @@
     <h2>:zap: 原创GO语言编写，功能强大，性能强劲。支持ETH/ETC/BTC/BCH抽水 其他币种开发中</h2>
     <h2>:zap: 抽水固定千分之2,纯转发不抽水</h2>
     <h2>免费协助linux/windows系统下安装本软件 前往TG群内联系群主即可</h2>
-   <h2>本地客户端KENC已上线, 请前往<a href="https://github.com/haoxie666/HxMinerProxy/tree/main/kenc%E6%9C%AC%E5%9C%B0%E5%8A%A0%E5%AF%86">https://github.com/haoxie666/HxMinerProxy/tree/main/kenc%E6%9C%AC%E5%9C%B0%E5%8A%A0%E5%AF%86</a>自行下载</h2>
+   <h2>本地客户端KENC已上线, 请前往<a href="https://github.com/haoxie666/HxMinerProxy/tree/main/kenc">https://github.com/haoxie666/HxMinerProxy/tree/main/kenc</a>自行下载</h2>
     <h2><a href="#kenc">KENC文档地址</a></h2>
     <!-- <a href="#"><strong>帮助文档 »</strong></a> -->
     <a href="#"></a>
@@ -374,9 +374,9 @@ TOKEN超时切换到登录页自动保留了账号密码
 
 ### KENC是本地->远程HX隧道，局域网部署在一台设备上即可，可与远程HXMinerProxy通过KENC协议进行通信。
 
-<a href="https://github.com/haoxie666/HxMinerProxy/blob/main/kenc%E6%9C%AC%E5%9C%B0%E5%8A%A0%E5%AF%86/kenc_v_win.exe">点击下载WINDOWS客户端</a>
+<a href="https://github.com/haoxie666/HxMinerProxy/tree/main/kenc/kenc_v_win.exe">点击下载WINDOWS客户端</a>
 
-<a href="https://github.com/haoxie666/HxMinerProxy/blob/main/kenc%E6%9C%AC%E5%9C%B0%E5%8A%A0%E5%AF%86/kenc_v_linux.linux">点击下载LINUX客户端</a>
+<a href="https://github.com/haoxie666/HxMinerProxy/tree/main/kenc/kenc_v_linux.linux">点击下载LINUX客户端</a>
 
 ### 使用环境
 ```
