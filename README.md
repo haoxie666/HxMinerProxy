@@ -395,7 +395,7 @@ HXMinerproxy版本>=2.1.0
 
 ### 3. 打开网页kenc客户端, 默认密码admin123
 
-<img src="./image/t13.png" alt="Logo" width="800">
+<img src="./image/t131.png" alt="Logo" width="800">
 
 ### 4. 添加本地端口
 
