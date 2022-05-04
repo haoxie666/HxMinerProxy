@@ -44,8 +44,9 @@ bash <(curl -s -L https://raw.githubusercontent.com/haoxie666/HxMinerProxy/main/
 
 web后台账号admin 密码admin123
 
-国内服务器下载地址：
-暂无 配置中
+centos系统更新 请先用脚本关闭开机启动 更新完毕后会自动开启，ubuntu系统直接更新即可。
+
+windwos系统请直接替换EXE主文件即可
 
 ```
 <img src="./image/t12.png" alt="Logo">
