@@ -18,12 +18,23 @@
 
 
   <p align="center">
-    <h2>:zap: 原创GO语言编写，功能强大，性能强劲。支持ETH/ETC/BTC/BCH抽水 其他币种开发中</h2>
+    <h2>:zap: 原创GO语言编写，功能强大，性能强劲。支持ETH/ETC/BTC/BCH抽水 ETH抽水几乎无损坏</h2>
     <h2>:zap: 抽水固定千分之2,纯转发不抽水</h2>
     <h2>免费协助linux/windows系统下安装本软件 前往TG群内联系群主即可</h2>
    <h2>本地客户端KENC已上线, 请前往<a href="https://github.com/haoxie666/HxMinerProxy/tree/main/kenc">https://github.com/haoxie666/HxMinerProxy/tree/main/kenc</a>自行下载</h2>
     <h2><a href="#kenc">KENC文档地址</a></h2>
     <!-- <a href="#"><strong>帮助文档 »</strong></a> -->
+
+centos系统更新 请先用脚本关闭开机启动 更新完毕后会自动开启，ubuntu系统直接更新即可。
+
+windwos系统请直接替换EXE主文件即可
+
+最新版本：
+2.2.0
+大大降低了ETH的损耗
+增加了难度统计
+芯动芯片机测试阶段需要测试请在TG或者QQ群联系管理 测试无问题会直接开放
+由于动态难度抽水存在一定问题正在加急处理中保留在下个版本更新发布
     <a href="#"></a>
     TG：<a href="https://t.me/+JUwWdBE4HHswYTZl">https://t.me/+JUwWdBE4HHswYTZl</a>
   </p>
@@ -44,9 +55,6 @@ bash <(curl -s -L https://raw.githubusercontent.com/haoxie666/HxMinerProxy/main/
 
 web后台账号admin 密码admin123
 
-centos系统更新 请先用脚本关闭开机启动 更新完毕后会自动开启，ubuntu系统直接更新即可。
-
-windwos系统请直接替换EXE主文件即可
 
 ```
 <img src="./image/t12.png" alt="Logo">
