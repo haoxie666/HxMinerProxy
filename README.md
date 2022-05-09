@@ -24,17 +24,19 @@
    <h2>本地客户端KENC已上线, 请前往<a href="https://github.com/haoxie666/HxMinerProxy/tree/main/kenc">https://github.com/haoxie666/HxMinerProxy/tree/main/kenc</a>自行下载</h2>
     <h2><a href="#kenc">KENC文档地址</a></h2>
     <!-- <a href="#"><strong>帮助文档 »</strong></a> -->
-<a href="#"></a>
+<span id="zxlog"></span>
+```
 centos系统更新 请先用脚本关闭开机启动 更新完毕后会自动开启，ubuntu系统直接更新即可。
 
 windwos系统请直接替换EXE主文件即可
-
+```
 最新版本：
 2.2.0
 大大降低了ETH的损耗
 增加了难度统计
 芯动芯片机测试阶段需要测试请在TG或者QQ群联系管理 测试无问题会直接开放
 由于动态难度抽水存在一定问题正在加急处理中保留在下个版本更新发布
+```
   </p>
 </div>
     <a href="#"></a>
