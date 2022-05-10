@@ -36,6 +36,7 @@ windwos系统请直接替换EXE主文件即可
 修复了算力补偿机器的名称问题，微量的提高了双方算力
 修复了网页修改端口导致ip黑名单丢失的问题
 减少主程序大小由20M缩减至7M
+程序默认安装端口修改为16888
 ```
   </p>
 </div>
@@ -56,6 +57,8 @@ windwos系统请直接替换EXE主文件即可
 root用户直接执行以下命令, 根据提示选择对应功能即可。
 
 bash <(curl -s -L https://raw.githubusercontent.com/haoxie666/HxMinerProxy/main/linux-install.sh)
+
+默认端口16888
 
 web后台账号admin 密码admin123
 

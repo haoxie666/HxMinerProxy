@@ -63,7 +63,7 @@ setConfig() {
 
         chmod -R 777 $PATH_CONFIG
 
-        echo "KT_START_PORT=16777" >> $PATH_CONFIG
+        echo "KT_START_PORT=16888" >> $PATH_CONFIG
     fi
 
     TARGET_VALUE="$1=$2"
@@ -280,7 +280,7 @@ installapp() {
     fi
 
     if [[ ! -d $PATH_CONFIG ]];then
-        setConfig KT_START_PORT 16777
+        setConfig KT_START_PORT 16888
     fi
 
     colorEcho $BLUE "拉取程序"
