@@ -2,7 +2,7 @@
 # Author: haoxie666
 # github: https://github.com/haoxie666
 
-VERSION="2.1.1"
+VERSION="2.2.0"
 
 DOWNLOAD_HOST="https://github.com/haoxie666/HxMinerProxy/raw/main/Linux-64"
 
@@ -159,6 +159,8 @@ start() {
 }
 
 update() {
+    turn_off
+    
     installapp 2.2.0
 }
 
@@ -176,12 +178,12 @@ turn_on() {
         echo 'if [ $COUNT -eq 0 ] && [ $(id -u) -eq 0 ]; then' >> $PATH_TURN_ON_SH
         echo "  cd ${PATH_KT}" >> $PATH_TURN_ON_SH
         echo "  nohup "${PATH_KT}/${PATH_EXEC}" 2>err.log &" >> $PATH_TURN_ON_SH
-        echo '  echo "HXroxy已启动"' >> $PATH_TURN_ON_SH
+        echo '  echo "HXProxy已启动"' >> $PATH_TURN_ON_SH
         echo 'else' >> $PATH_TURN_ON_SH
         echo '  if [ $COUNT -ne 0 ]; then' >> $PATH_TURN_ON_SH
-        echo '      echo "HXroxy已启动, 无需重复启动"' >> $PATH_TURN_ON_SH
+        echo '      echo "HXProxy已启动, 无需重复启动"' >> $PATH_TURN_ON_SH
         echo '  elif [ $(id -u) -ne 0 ]; then' >> $PATH_TURN_ON_SH
-        echo '      echo "使用ROOT用户登录才能启动HXROXY"' >> $PATH_TURN_ON_SH
+        echo '      echo "使用ROOT用户登录才能启动KTPROXY"' >> $PATH_TURN_ON_SH
         echo '  fi' >> $PATH_TURN_ON_SH
         echo 'fi' >> $PATH_TURN_ON_SH
 
