@@ -31,6 +31,7 @@ ISSUE() {
     echo "2.2.1"
 }
 
+
 colorEcho(){
     COLOR=$1
     echo -e "\033[${COLOR}${@:2}\033[0m"
@@ -121,7 +122,7 @@ clearlog() {
 
 stop() {
     colorEcho $BLUE "终止HXMinerProxy进程"
-    killall HXroxy
+    killall ktproxy
     sleep 1
 }
 
@@ -137,7 +138,7 @@ uninstall() {
 
 start() {
     colorEcho $BLUE "启动程序..."
-    checkProcess "HXroxy"
+    checkProcess "HXproxy"
     if [ $? -eq 1 ]; then
         colorEcho ${RED} "程序已经启动，请不要重复启动。"
         return
@@ -161,7 +162,7 @@ start() {
 
 update() {
     turn_off
-    
+
     installapp 2.2.1
 }
 
@@ -184,7 +185,7 @@ turn_on() {
         echo '  if [ $COUNT -ne 0 ]; then' >> $PATH_TURN_ON_SH
         echo '      echo "HXProxy已启动, 无需重复启动"' >> $PATH_TURN_ON_SH
         echo '  elif [ $(id -u) -ne 0 ]; then' >> $PATH_TURN_ON_SH
-        echo '      echo "使用ROOT用户登录才能启动KTPROXY"' >> $PATH_TURN_ON_SH
+        echo '      echo "使用ROOT用户登录才能启动HXPROXY"' >> $PATH_TURN_ON_SH
         echo '  fi' >> $PATH_TURN_ON_SH
         echo 'fi' >> $PATH_TURN_ON_SH
 
@@ -279,8 +280,8 @@ installapp() {
         chmod 777 -R $PATH_ERR
     fi
 
-    if [[ ! -d $PATH_CONFIG ]];then
-        setConfig KT_START_PORT 16888
+    if [[ ! -f $PATH_CONFIG ]];then
+        setConfig KT_START_PORT $((RANDOM%65535+1))
     fi
 
     colorEcho $BLUE "拉取程序"
@@ -341,12 +342,12 @@ check_limit() {
 check_hub() {
     # cd $PATH_KT
     colorEcho ${YELLOW} "按住CTRL+C后台运行"
-    tail -f /root/HXproxy/nohup.out
+    tail -f /root/ktmproxy/nohup.out
 }
 
 check_err() {
     colorEcho ${YELLOW} "按住CTRL+C后台运行"
-    tail -f /root/HXproxy/err.log
+    tail -f /root/ktmproxy/err.log
 }
 
 install_target() {
@@ -375,6 +376,12 @@ set_port() {
     start
 }
 
+lookport() {
+    port=$(getConfig "KT_START_PORT")
+
+    colorEcho $GREEN "当前WEB访问端口${port}"
+}
+
 echo "-------------------------------------------------------"
 colorEcho ${GREEN} "欢迎使用HXMinerProxy安装工具, 请输入操作号继续。"
 
@@ -394,6 +401,7 @@ echo "12、查看程序运行状态"
 echo "13、查看程序错误日志"
 echo "14、安装指定版本（通常不需要这个选项来安装）"
 echo "15、清理日志文件"
+echo "16、查看当前WEB服务端口"
 echo ""
 colorEcho ${YELLOW} "如果在此之前是手动安装的程序，请自己手动退出程序后再执行此脚本，否则容易发生冲突，所有操作尽量通过此脚本完成。"
 echo "-------------------------------------------------------"
@@ -445,6 +453,9 @@ case $choose in
     ;;
 15)
     clearlog
+    ;;
+16)
+    lookport
     ;;
 *)
     echo "输入了错误的指令, 请重新输入。"
