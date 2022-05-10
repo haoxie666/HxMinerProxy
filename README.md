@@ -26,7 +26,7 @@
     <!-- <a href="#"><strong>帮助文档 »</strong></a> -->
 <span id="zxlog"></span>
 ```
-centos系统更新 请先用脚本关闭开机启动 更新完毕后会自动开启，ubuntu系统直接更新即可。
+LINUX更新脚本已经修复 centos ubuntu系统均可使用脚本使用3直接更新
 
 windwos系统请直接替换EXE主文件即可
 ```
