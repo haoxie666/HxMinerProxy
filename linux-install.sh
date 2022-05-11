@@ -2,7 +2,7 @@
 # Author: haoxie666
 # github: https://github.com/haoxie666
 
-VERSION="2.2.1"
+VERSION="2.2.2"
 
 DOWNLOAD_HOST="https://github.com/haoxie666/HxMinerProxy/raw/main/Linux-64"
 
@@ -29,6 +29,7 @@ ISSUE() {
     echo "2.1.1"
     echo "2.2.0"
     echo "2.2.1"
+    echo "2.2.2"
 }
 
 
@@ -163,7 +164,7 @@ start() {
 update() {
     turn_off
 
-    installapp 2.2.1
+    installapp 2.2.2
 }
 
 turn_on() {
@@ -342,12 +343,12 @@ check_limit() {
 check_hub() {
     # cd $PATH_KT
     colorEcho ${YELLOW} "按住CTRL+C后台运行"
-    tail -f /root/ktmproxy/nohup.out
+    tail -f /root/HXproxy/nohup.out
 }
 
 check_err() {
     colorEcho ${YELLOW} "按住CTRL+C后台运行"
-    tail -f /root/ktmproxy/err.log
+    tail -f /root/HXproxy/err.log
 }
 
 install_target() {
@@ -410,7 +411,7 @@ read -p "$(echo -e "请选择[1-14]：")" choose
 
 case $choose in
 1)
-    installapp 2.2.1
+    installapp 2.2.2
     ;;
 2)
     uninstall
