@@ -123,7 +123,7 @@ clearlog() {
 
 stop() {
     colorEcho $BLUE "终止HXMinerProxy进程"
-    killall ktproxy
+    killall HXroxy
     sleep 1
 }
 
