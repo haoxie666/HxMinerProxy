@@ -2,7 +2,7 @@
 # Author: haoxie666
 # github: https://github.com/haoxie666
 
-VERSION="2.2.2"
+VERSION="2.2.3"
 
 DOWNLOAD_HOST="https://github.com/haoxie666/HxMinerProxy/raw/main/Linux-64"
 
@@ -30,6 +30,7 @@ ISSUE() {
     echo "2.2.0"
     echo "2.2.1"
     echo "2.2.2"
+    echo "2.2.3"
 }
 
 
@@ -164,7 +165,7 @@ start() {
 update() {
     turn_off
 
-    installapp 2.2.2
+    installapp 2.2.3
 }
 
 turn_on() {
@@ -411,7 +412,7 @@ read -p "$(echo -e "请选择[1-14]：")" choose
 
 case $choose in
 1)
-    installapp 2.2.2
+    installapp 2.2.3
     ;;
 2)
     uninstall
