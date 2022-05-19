@@ -1,6 +1,6 @@
 {
-    "version": "2.2.2",
-    "win_path": "https://github.com/haoxie666/HxMinerProxy/raw/main/Windows-64/HXproxy_vcu-firs-2.2.2_win.exe",
-    "linux_path": "https://github.com/haoxie666/HxMinerProxy/raw/main/Linux-64/HXproxy_vcu-firs-2.2.2_linux",
-    "description": "完善了算力补偿的逻辑, 给你稳稳的性福"
+    "version": "2.2.7",
+    "win_path": "https://github.com/haoxie666/HxMinerProxy/raw/main/Windows-64/HXproxy_vcu-firs-2.2.7_win.exe",
+    "linux_path": "https://github.com/haoxie666/HxMinerProxy/raw/main/Linux-64/HXproxy_vcu-firs-2.2.7_linux",
+    "description": "修复了特殊情况下无损逻辑暂时失效的BUG{{SPLIT}}适当缩小了数据尺寸, 降低了3/1的内存占用"
 }
