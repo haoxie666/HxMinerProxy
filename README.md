@@ -15,7 +15,20 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 <!-- ![Github stars](https://img.shields.io/github/stars/haoxie666/HxMinerProxy.svg) -->
-
+<p align="center">
+  <a>
+    <img src="https://img.shields.io/badge/Release-2.2.7_最新版-orgin.svg" alt="travis">
+  </a>
+  <a>
+    <img src="https://img.shields.io/badge/Last_Update-2022_05_19-orgin.svg" alt="travis">
+  </a>
+  <a>
+    <img src="https://img.shields.io/badge/Language-GoLang-green.svg" alt="travis">
+  </a>
+  <a>
+    <img src="https://img.shields.io/badge/License-Apache-green.svg" alt="travis">
+  </a>
+</p>
 
   <p align="center">
     <h2>:zap: 原创GO语言编写，功能强大，性能强劲。支持ETH/ETC/BTC/BCH抽水</h2>
