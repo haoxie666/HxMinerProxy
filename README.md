@@ -482,12 +482,3 @@ HXMinerproxy版本>=2.1.0
 [issues-shield]: https://img.shields.io/github/issues/haoxie666/HxMinerProxy.svg?style=for-the-badge
 [issues-url]: https://github.com/haoxie666/HxMinerProxy/issues
 [license-shield]: https://img.shields.io/github/license/haoxie666/HxMinerProxy.svg?style=for-the-badge
-
-
-<dependencies>
-  <dependency>
-    <groupId>com.example</groupId>
-    <artifactId>test</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
-  </dependency>
-</dependencies>
