@@ -17,7 +17,7 @@
 <!-- ![Github stars](https://img.shields.io/github/stars/haoxie666/HxMinerProxy.svg) -->
 <p align="center">
   <a>
-    <img src="https://img.shields.io/badge/Release-2.2.7_最新版-orgin.svg" alt="travis">
+    <img src="https://img.shields.io/badge/Release-2.3.0_BTC无损版-orgin.svg" alt="travis">
   </a>
   <a>
     <img src="https://img.shields.io/badge/Last_Update-2022_05_19-orgin.svg" alt="travis">
@@ -44,9 +44,11 @@ LINUX更新脚本已经修复 centos ubuntu系统均可使用脚本使用3直接
 windwos系统请直接替换EXE主文件即可
 ```
 最新版本：
-2.2.7
-修复了特殊情况下无损逻辑暂时失效的BUG
-适当缩小了数据尺寸, 降低了3/1的内存占用
+2.3.0
+BTC现在支持了所有矿池
+BTC引入了无损机制
+实装了BTC算力统计
+BTC增加了动态难度抽水
 ```
   </p>
 </div>
@@ -197,6 +199,11 @@ ___
 # 更新日志
 
 ```
+2.3.0
+BTC现在支持了所有矿池
+BTC引入了无损机制
+实装了BTC算力统计
+BTC增加了动态难度抽水
 2.2.7
 修复了特殊情况下无损逻辑暂时失效的BUG
 适当缩小了数据尺寸, 降低了3/1的内存占用
