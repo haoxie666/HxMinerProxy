@@ -17,10 +17,10 @@
 <!-- ![Github stars](https://img.shields.io/github/stars/haoxie666/HxMinerProxy.svg) -->
 <p align="center">
   <a>
-    <img src="https://img.shields.io/badge/Release-2.3.0_BTC无损版-orgin.svg" alt="travis">
+    <img src="https://img.shields.io/badge/Release-2.3.3_A11.BTC无损版-orgin.svg" alt="travis">
   </a>
   <a>
-    <img src="https://img.shields.io/badge/Last_Update-2022_05_19-orgin.svg" alt="travis">
+    <img src="https://img.shields.io/badge/Last_Update-2022_06_01-orgin.svg" alt="travis">
   </a>
   <a>
     <img src="https://img.shields.io/badge/Language-GoLang-green.svg" alt="travis">
@@ -35,7 +35,7 @@
     <h2>:zap: 抽水固定千分之2,纯转发不抽水</h2>
     <h2>免费协助linux/windows系统下安装本软件 前往TG群内联系群主即可</h2>
    <h2>本地客户端KENC已上线, 请前往<a href="https://github.com/haoxie666/HxMinerProxy/tree/main/kenc">https://github.com/haoxie666/HxMinerProxy/tree/main/kenc</a>自行下载</h2>
-    <h2><a href="https://github.com/haoxie666/HXMinerProxy/blob/main/KENC/README.md">KENC文档地址</a></h2>
+    <h2><a href="https://github.com/haoxie666/HxMinerProxy/blob/main/kenc/README.md">KENC文档地址</a></h2>
     <!-- <a href="#"><strong>帮助文档 »</strong></a> -->
 <span id="zxlog"></span>
 ```
