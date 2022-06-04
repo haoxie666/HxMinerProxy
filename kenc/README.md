@@ -19,6 +19,9 @@ HXMinerproxy版本>=2.1.0
 
 ## 使用说明
 
+###windows主程序为kenc-electron.exe
+
+
 ### 1.远程HXminerproxy先配置一个KENC协议的端口
 
 <img src="./../image/t14.png" alt="Logo" width="300">
