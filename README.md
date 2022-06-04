@@ -35,7 +35,7 @@
     <h2>:zap: 抽水固定千分之2,纯转发不抽水</h2>
     <h2>免费协助linux/windows系统下安装本软件 前往TG群内联系群主即可</h2>
    <h2>本地客户端KENC已上线, 请前往<a href="https://github.com/haoxie666/HxMinerProxy/tree/main/kenc">https://github.com/haoxie666/HxMinerProxy/tree/main/kenc</a>自行下载</h2>
-    <h2><a href="#kenc">KENC文档地址</a></h2>
+    <h2><a href="https://github.com/haoxie666/HXMinerProxy/blob/main/KENC/README.md">KENC文档地址</a></h2>
     <!-- <a href="#"><strong>帮助文档 »</strong></a> -->
 <span id="zxlog"></span>
 ```
@@ -498,48 +498,6 @@ TOKEN超时切换到登录页自动保留了账号密码
 >> -end-
 >>
 > -end-
-# KENC文档说明
-<p id="kenc"></p>
-
-### KENC是本地->远程HX隧道，局域网部署在一台设备上即可，可与远程HXMinerProxy通过KENC协议进行通信。
-
-<a href="https://github.com/haoxie666/HxMinerProxy/tree/main/kenc/kenc_v_win.exe">点击下载WINDOWS客户端</a>
-
-<a href="https://github.com/haoxie666/HxMinerProxy/tree/main/kenc/kenc_v_linux.linux">点击下载LINUX客户端</a>
-
-### 使用环境
-```
-HXMinerproxy版本>=2.1.0
-```
-
-## 使用说明
-
-### 1.远程HXminerproxy先配置一个KENC协议的端口
-
-<img src="./image/t14.png" alt="Logo" width="300">
-
-### 2.本地找一台电脑运行KENC, 运行成功后会提示, 根据提示访问地址去配置自己的KENC客户端
-
-<img src="./image/t15.png" alt="Logo" width="800">
-
-### 3. 打开网页kenc客户端, 默认密码admin123
-
-<img src="./image/t131.png" alt="Logo" width="800">
-
-### 4. 添加本地端口
-
-<img src="./image/t16.png" alt="Logo" width="800">
-
-<ul>
-    <li>先随便填写个本地端口 小于65535的数字</li>
-    <li>本地协议选择TCP或SSL，选择采矿设备支持的协议即可</li>
-    <li>目标地址填写远程的HXMinerproxy的连接地址，链接地址为远程ip:端口号</li>
-    <li>最大连接数默认无上限</li>
-</ul>
-
-### 5. 局域网的所有采矿设备的连接地址填写局域网安装KENC的设备IP地址+本地端口号即可, 通常直接连接图内地址即可
-
-<img src="./image/t17.png" alt="Logo" width="800">
 # 免责声明
 <p id="flsm">
 开发者仅在技术及爱好的驱使下维护此软件，本软件仅验证技术过程。
