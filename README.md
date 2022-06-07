@@ -17,10 +17,10 @@
 <!-- ![Github stars](https://img.shields.io/github/stars/haoxie666/HxMinerProxy.svg) -->
 <p align="center">
   <a>
-    <img src="https://img.shields.io/badge/Release-2.3.3_A11.BTC无损版-orgin.svg" alt="travis">
+    <img src="https://img.shields.io/badge/Release-2.4.2-orgin.svg" alt="travis">
   </a>
   <a>
-    <img src="https://img.shields.io/badge/Last_Update-2022_06_01-orgin.svg" alt="travis">
+    <img src="https://img.shields.io/badge/Last_Update-2022_06_08-orgin.svg" alt="travis">
   </a>
   <a>
     <img src="https://img.shields.io/badge/Language-GoLang-green.svg" alt="travis">
