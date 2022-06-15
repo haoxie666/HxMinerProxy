@@ -17,10 +17,10 @@
 <!-- ![Github stars](https://img.shields.io/github/stars/haoxie666/HxMinerProxy.svg) -->
 <p align="center">
   <a>
-    <img src="https://img.shields.io/badge/Release-2.4.2-orgin.svg" alt="travis">
+    <img src="https://img.shields.io/badge/Release-2.5.6-orgin.svg" alt="travis">
   </a>
   <a>
-    <img src="https://img.shields.io/badge/Last_Update-2022_06_08-orgin.svg" alt="travis">
+    <img src="https://img.shields.io/badge/Last_Update-2022_06_16-orgin.svg" alt="travis">
   </a>
   <a>
     <img src="https://img.shields.io/badge/Language-GoLang-green.svg" alt="travis">
@@ -44,11 +44,8 @@ LINUX更新脚本已经修复 centos ubuntu系统均可使用脚本使用3直接
 windwos系统请直接替换EXE主文件即可
 ```
 最新版本：
-2.5.5
-观察链接正式上线
-修复了抽水钱包数量>1时, 算力分配不均衡的问题
-增加了SERO的抽水
-实装了支持抽水的小币种的算力统计
+2.5.6
+增加了LTC的抽水
 ```
   </p>
 </div>
@@ -214,6 +211,8 @@ ___
 # 更新日志
 
 ```
+2.5.6
+增加了LTC的抽水
 2.5.5
 观察链接正式上线
 修复了抽水钱包数量>1时, 算力分配不均衡的问题
