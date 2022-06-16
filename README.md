@@ -31,7 +31,7 @@
 </p>
 
   <p align="center">
-    <h2>:zap: 原创GO语言编写，功能强大，性能强劲。支持ETH/ETC/BTC/BCH/CFX/RVN/ERG抽水</h2>
+    <h2>:zap: 原创GO语言编写，功能强大，性能强劲。支持ETH/ETC/BTC/BCH/LTC/CFX/RVN/ERG/SERO等多个币种抽水，不爆内存，体验拉满，4000台无压力不崩溃，精确到单台设备的24小时数据统计、自定义隧道推送工具等强大功能...</h2>
     <h2>:zap: 抽水固定千分之2,纯转发不抽水</h2>
     <h2>免费协助linux/windows系统下安装本软件 前往TG群内联系群主即可</h2>
    <h2>本地客户端KENC已上线, 请前往<a href="https://github.com/haoxie666/HxMinerProxy/tree/main/kenc">https://github.com/haoxie666/HxMinerProxy/tree/main/kenc</a>自行下载</h2>
