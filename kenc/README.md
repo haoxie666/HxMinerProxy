@@ -20,6 +20,12 @@ bash <(curl -s -L https://raw.githubusercontent.com/haoxie666/HxMinerProxy/main/
 
 默认端口为3101
 ```
+###WIN系统下载
+```
+WIN系统请直接下载kenc_v_windows 主程序kenc-electron.exe .zip安装包
+
+win系统版本kenc 主程序为“kenc-electron.exe”
+```
 
 ### 使用环境
 ```
