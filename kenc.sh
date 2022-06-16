@@ -170,7 +170,7 @@ start() {
         # getConfig "KT_START_PORT"
         port=$(getConfig "KT_START_PORT")
 
-        colorEcho $GREEN "启动成功kenc"
+        colorEcho $GREEN "启动成功kenc kenc默认端口为：你的IP+3101"
     fi
 }
 
