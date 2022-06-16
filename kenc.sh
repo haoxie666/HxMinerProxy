@@ -345,14 +345,19 @@ Reset() {
 clear
 while :; do
     echo
-    echo "-------- kenc 一键安装脚本 --------"
+    echo "-------- MinerProxy 一键安装脚本 by:MinerPr1xy--------"
+    echo "Github下载地址:https://github.com/MinerPr0xy/MinerProxy"
+    echo "帮助稳定(编写中):https://minerproxy.gitbook.io/minerproxy/"
+    echo "官方电报群:https://t.me/Miner_Proxy"
+    echo "官方QQ群号:683918874"
     echo
-    echo " 1. 安装(kenc)"
+    echo " 1. 安装(MinerProxy)"
     echo
-    echo " 2. 卸载(kenc)"
+    echo " 2. 卸载(MinerProxy)"
     echo
-    echo " 3. 重启(kenc)"
+    echo " 3. 重启(MinerProxy)"
     echo
+    echo " 4. 重置配置文件(后台端口和后台密码)"
     echo
     read -p "$(echo -e "请选择 [${magenta}1-4$none]:")" choose
     case $choose in
