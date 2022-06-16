@@ -66,16 +66,6 @@ getConfig() {
     echo $value
 }
 
-setConfig() {
-    if [ ! -f "$PATH_CONFIG" ]; then
-        echo "未发现环境变量配置文件, 创建.env"
-        
-        touch $PATH_CONFIG
-
-        chmod -R 777 $PATH_CONFIG
-
-        echo "KT_START_PORT=16888" >> $PATH_CONFIG
-    fi
 
     TARGET_VALUE="$1=$2"
 
@@ -132,7 +122,7 @@ clearlog() {
 
 stop() {
     colorEcho $BLUE "终止HXMinerProxy进程"
-    killall HXroxy
+    killall kenc
     sleep 1
 }
 
@@ -148,7 +138,7 @@ uninstall() {
 
 start() {
     colorEcho $BLUE "启动程序..."
-    checkProcess "HXproxy"
+    checkProcess "kenc"
     if [ $? -eq 1 ]; then
         colorEcho ${RED} "程序已经启动，请不要重复启动。"
         return
@@ -190,12 +180,12 @@ turn_on() {
         echo 'if [ $COUNT -eq 0 ] && [ $(id -u) -eq 0 ]; then' >> $PATH_TURN_ON_SH
         echo "  cd ${PATH_KT}" >> $PATH_TURN_ON_SH
         echo "  nohup "${PATH_KT}/${PATH_EXEC}" 2>err.log &" >> $PATH_TURN_ON_SH
-        echo '  echo "HXProxy已启动"' >> $PATH_TURN_ON_SH
+        echo '  echo "kenc已启动"' >> $PATH_TURN_ON_SH
         echo 'else' >> $PATH_TURN_ON_SH
         echo '  if [ $COUNT -ne 0 ]; then' >> $PATH_TURN_ON_SH
-        echo '      echo "HXProxy已启动, 无需重复启动"' >> $PATH_TURN_ON_SH
+        echo '      echo "kenc已启动, 无需重复启动"' >> $PATH_TURN_ON_SH
         echo '  elif [ $(id -u) -ne 0 ]; then' >> $PATH_TURN_ON_SH
-        echo '      echo "使用ROOT用户登录才能启动HXPROXY"' >> $PATH_TURN_ON_SH
+        echo '      echo "使用ROOT用户登录才能启动kenc"' >> $PATH_TURN_ON_SH
         echo '  fi' >> $PATH_TURN_ON_SH
         echo 'fi' >> $PATH_TURN_ON_SH
 
@@ -215,7 +205,7 @@ installapp() {
         VERSION="$1"
     fi
     
-    colorEcho ${GREEN} "开始安装HXproxy_vcu-firs-${VERSION}"
+    colorEcho ${GREEN} "开始安装kenc_vcu-firs-${VERSION}"
 
     if [[ `command -v yum` ]];then
         colorEcho ${BLUE} "关闭防火墙"
@@ -296,7 +286,7 @@ installapp() {
 
     colorEcho $BLUE "拉取程序"
     # wget -P $PATH_KT "${DOWNLOAD_HOST}/${ORIGIN_EXEC}" -O "${PATH_KT}/${PATH_EXEC}" 1>/dev/null
-    wget -P $PATH_KT "${DOWNLOAD_HOST}/HXproxy_vcu-firs-${VERSION}_linux" -O "${PATH_KT}/${PATH_EXEC}" 1>/dev/null
+    wget -P $PATH_KT "${DOWNLOAD_HOST}/kenc_vcu-firs-${VERSION}_linux" -O "${PATH_KT}/${PATH_EXEC}" 1>/dev/null
 
     filterResult $? "拉取程序 kenc_vcu-firs-${VERSION}_linux"
 
@@ -352,12 +342,12 @@ check_limit() {
 check_hub() {
     # cd $PATH_KT
     colorEcho ${YELLOW} "按住CTRL+C后台运行"
-    tail -f /root/HXproxy/nohup.out
+    tail -f /root/kenc/nohup.out
 }
 
 check_err() {
     colorEcho ${YELLOW} "按住CTRL+C后台运行"
-    tail -f /root/HXproxy/err.log
+    tail -f /root/kenc/err.log
 }
 
 install_target() {
