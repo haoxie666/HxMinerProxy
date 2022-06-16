@@ -346,10 +346,6 @@ clear
 while :; do
     echo
     echo "-------- MinerProxy 一键安装脚本 by:MinerPr1xy--------"
-    echo "Github下载地址:https://github.com/MinerPr0xy/MinerProxy"
-    echo "帮助稳定(编写中):https://minerproxy.gitbook.io/minerproxy/"
-    echo "官方电报群:https://t.me/Miner_Proxy"
-    echo "官方QQ群号:683918874"
     echo
     echo " 1. 安装(MinerProxy)"
     echo
