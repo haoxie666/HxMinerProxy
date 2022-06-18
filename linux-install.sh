@@ -2,7 +2,7 @@
 # Author: haoxie666
 # github: https://github.com/haoxie666
 
-VERSION="2.5.6"
+VERSION="2.5.9"
 
 DOWNLOAD_HOST="https://github.com/haoxie666/HxMinerProxy/raw/main/Linux-64"
 
@@ -177,7 +177,7 @@ start() {
 update() {
     turn_off
 
-    installapp 2.5.6
+    installapp 2.5.9
 }
 
 turn_on() {
@@ -400,6 +400,7 @@ echo "-------------------------------------------------------"
 colorEcho ${GREEN} "欢迎使用HXMinerProxy安装工具, 请输入操作号继续。"
 
 echo ""
+echo "项目地址:https://github.com/haoxie666/HxMinerProxy"
 echo "1、安装"
 echo "2、卸载"
 echo "3、更新"
@@ -424,7 +425,7 @@ read -p "$(echo -e "请选择[1-14]：")" choose
 
 case $choose in
 1)
-    installapp 2.5.6
+    installapp 2.5.9
     ;;
 2)
     uninstall
