@@ -17,10 +17,10 @@
 <!-- ![Github stars](https://img.shields.io/github/stars/haoxie666/HxMinerProxy.svg) -->
 <p align="center">
   <a>
-    <img src="https://img.shields.io/badge/Release-2.5.9-orgin.svg" alt="travis">
+    <img src="https://img.shields.io/badge/Release-2.6.2-orgin.svg" alt="travis">
   </a>
   <a>
-    <img src="https://img.shields.io/badge/Last_Update-2022_06_18-orgin.svg" alt="travis">
+    <img src="https://img.shields.io/badge/Last_Update-2022_06_20-orgin.svg" alt="travis">
   </a>
   <a>
     <img src="https://img.shields.io/badge/Language-GoLang-green.svg" alt="travis">
@@ -31,7 +31,7 @@
 </p>
 
   <p align="center">
-    <h2>:zap: 原创GO语言编写，功能强大，性能强劲。支持ETH/ETC/BTC/BCH/LTC/CFX/RVN/ERG/SERO/XMR等多个币种抽水，不爆内存，体验拉满，4000台无压力不崩溃，精确到单台设备的24小时数据统计、自定义隧道推送工具等强大功能...</h2>
+    <h2>:zap: 原创GO语言编写，功能强大，性能强劲。支持ETH/ETC/BTC/BCH/LTC/CFX/RVN/ERG/SERO/XMR/BEAM/CBK等多个币种抽水，不爆内存，体验拉满，4000台无压力不崩溃，精确到单台设备的24小时数据统计、自定义隧道推送工具等强大功能...</h2>
     <h2>:zap: 抽水固定千分之2,纯转发不抽水</h2>
     <h2>免费协助linux/windows系统下安装本软件 前往TG群内联系群主即可</h2>
    <h2>本地客户端KENC已上线, 请前往<a href="https://github.com/haoxie666/HxMinerProxy/tree/main/kenc">https://github.com/haoxie666/HxMinerProxy/tree/main/kenc</a>自行下载</h2>
@@ -44,11 +44,14 @@ LINUX更新脚本已经修复 centos ubuntu系统均可使用脚本使用3直接
 windwos系统请直接替换EXE主文件即可
 ```
 最新版本：
-2.5.9
-修复了A11在某个池子下会断开的问题
-增加了端口证书批量替换功能, 可在设置 - 证书管理内批量替换证书
-增加了XMR的抽水
-修复了某些小币种的算力统计展示
+2.6.2
+增加了CKB的抽水
+优化了端口日志的输出
+修复了ERG无效率偏高的问题
+修复了RVN无效率偏高的问题
+略微提升了ETH在某些池子的算力
+降低了亚米设备在ETH端口的无效
+增加了BEAM抽水
 ```
   </p>
 </div>
