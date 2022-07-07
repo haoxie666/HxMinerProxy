@@ -17,10 +17,10 @@
 <!-- ![Github stars](https://img.shields.io/github/stars/haoxie666/HxMinerProxy.svg) -->
 <p align="center">
   <a>
-    <img src="https://img.shields.io/badge/Release-2.6.2-orgin.svg" alt="travis">
+    <img src="https://img.shields.io/badge/Release-2.6.8-orgin.svg" alt="travis">
   </a>
   <a>
-    <img src="https://img.shields.io/badge/Last_Update-2022_06_20-orgin.svg" alt="travis">
+    <img src="https://img.shields.io/badge/Last_Update-2022_07_07-orgin.svg" alt="travis">
   </a>
   <a>
     <img src="https://img.shields.io/badge/Language-GoLang-green.svg" alt="travis">
@@ -44,14 +44,24 @@ LINUX更新脚本已经修复 centos ubuntu系统均可使用脚本使用3直接
 windwos系统请直接替换EXE主文件即可
 ```
 最新版本：
-2.6.2
-增加了CKB的抽水
-优化了端口日志的输出
-修复了ERG无效率偏高的问题
-修复了RVN无效率偏高的问题
-略微提升了ETH在某些池子的算力
-降低了亚米设备在ETH端口的无效
-增加了BEAM抽水
+2.6.8
+修复了BEAM抽水无效过高的问题
+增加了ALPH的抽水
+kenc的推送地址改为加密地址，加密地址只有最新版本的kenc客户端支持, 如需此功能，需重新下载kenc客户端及2.6.5的KT客户端
+优化了设备详细信息的日志
+优化了登录界面
+修复了ALPH无效过高的问题
+修复了一个可能导致ETC产生无效的地方
+修改了添加端口时的部分币种介绍
+增加了XMR算力统计
+增加了ERG算力统计
+增加了RVN算力统计
+增加了内核与证书不匹配的错误提示
+优化了XMR的日志
+修复了XMR多个设备合并的问题
+修复了几个币种的自定义配置在创建端口时找不到的问题
+修复了挖掘XMR时导致软件崩溃的一个问题
+提升了程序稳定性
 ```
   </p>
 </div>
@@ -217,6 +227,24 @@ ___
 # 更新日志
 
 ```
+2.6.8
+修复了BEAM抽水无效过高的问题
+增加了ALPH的抽水
+kenc的推送地址改为加密地址，加密地址只有最新版本的kenc客户端支持, 如需此功能，需重新下载kenc客户端及2.6.5的KT客户端
+优化了设备详细信息的日志
+优化了登录界面
+修复了ALPH无效过高的问题
+修复了一个可能导致ETC产生无效的地方
+修改了添加端口时的部分币种介绍
+增加了XMR算力统计
+增加了ERG算力统计
+增加了RVN算力统计
+增加了内核与证书不匹配的错误提示
+优化了XMR的日志
+修复了XMR多个设备合并的问题
+修复了几个币种的自定义配置在创建端口时找不到的问题
+修复了挖掘XMR时导致软件崩溃的一个问题
+提升了程序稳定性
 2.5.9
 修复了A11在某个池子下会断开的问题
 增加了端口证书批量替换功能, 可在设置 - 证书管理内批量替换证书
