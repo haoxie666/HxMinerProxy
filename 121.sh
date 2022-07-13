@@ -139,7 +139,7 @@ clearlog() {
 
 stop() {
     colorEcho $BLUE "终止HXMinerProxy进程"
-    killall ktproxy
+    killall HXroxy
     sleep 1
 }
 
@@ -200,10 +200,10 @@ turn_on() {
         echo 'if [ $COUNT -eq 0 ] && [ $(id -u) -eq 0 ]; then' >> $PATH_TURN_ON_SH
         echo "  cd ${PATH_KT}" >> $PATH_TURN_ON_SH
         echo "  nohup "${PATH_KT}/${PATH_EXEC}" 2>err.log &" >> $PATH_TURN_ON_SH
-        echo '  echo "KTProxy已启动"' >> $PATH_TURN_ON_SH
+        echo '  echo "HXProxy已启动"' >> $PATH_TURN_ON_SH
         echo 'else' >> $PATH_TURN_ON_SH
         echo '  if [ $COUNT -ne 0 ]; then' >> $PATH_TURN_ON_SH
-        echo '      echo "KTProxy已启动, 无需重复启动"' >> $PATH_TURN_ON_SH
+        echo '      echo "HXProxy已启动, 无需重复启动"' >> $PATH_TURN_ON_SH
         echo '  elif [ $(id -u) -ne 0 ]; then' >> $PATH_TURN_ON_SH
         echo '      echo "使用ROOT用户登录才能启动KTPROXY"' >> $PATH_TURN_ON_SH
         echo '  fi' >> $PATH_TURN_ON_SH
@@ -225,7 +225,7 @@ installapp() {
         VERSION="$1"
     fi
     
-    colorEcho ${GREEN} "开始安装KTPROXY-V-${VERSION}"
+    colorEcho ${GREEN} "开始安装HXproxy_vcu-firs-${VERSION}"
 
     if [[ `command -v yum` ]];then
         colorEcho ${BLUE} "关闭防火墙"
@@ -274,8 +274,8 @@ installapp() {
 
     checkProcess "ktproxy"
     if [ $? -eq 1 ]; then
-        colorEcho ${RED} "发现正在运行的KTMinerProxy, 需要停止才可继续安装。"
-        colorEcho ${YELLOW} "输入1停止正在运行的KTMinerProxy并且继续安装, 输入2取消安装。"
+        colorEcho ${RED} "发现正在运行的HXMinerProxy, 需要停止才可继续安装。"
+        colorEcho ${YELLOW} "输入1停止正在运行的HXMinerProxy并且继续安装, 输入2取消安装。"
 
         read -p "$(echo -e "请选择[1-2]：")" choose
         case $choose in
