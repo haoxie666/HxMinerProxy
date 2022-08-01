@@ -17,10 +17,10 @@
 <!-- ![Github stars](https://img.shields.io/github/stars/haoxie666/HxMinerProxy.svg) -->
 <p align="center">
   <a>
-    <img src="https://img.shields.io/badge/Release-2.6.8-orgin.svg" alt="travis">
+    <img src="https://img.shields.io/badge/Release-2.7.6-orgin.svg" alt="travis">
   </a>
   <a>
-    <img src="https://img.shields.io/badge/Last_Update-2022_07_07-orgin.svg" alt="travis">
+    <img src="https://img.shields.io/badge/Last_Update-2022_08_02-orgin.svg" alt="travis">
   </a>
   <a>
     <img src="https://img.shields.io/badge/Language-GoLang-green.svg" alt="travis">
@@ -44,10 +44,13 @@ LINUX更新脚本已经修复 centos ubuntu系统均可使用脚本使用3直接
 windwos系统请直接替换EXE主文件即可
 ```
 最新版本：
-2.7.4发布
-[重要更新] 修复了自定义证书会自动复原的BUG, 影响范围2.6.x-2.7.3
-增加了新的主题和布局
-增加了掉线清理和推送的时间设置
+2.7.6发布
+增加了纯转发端口, 功能类似nginx
+增加了份额最后提交日期
+优化了页面细节及主题
+kenc更新发布
+尝试修复断电掉配置的问题
+修复了kaspa高无效的问题
 ```
   </p>
 </div>
