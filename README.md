@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/kt007007/KTMinerProxy/main/image/slogo.png" alt="Logo" width="200" height="200">
+<img src="https://raw.githubusercontent.com/haoxie666/HxMinerProxy/main/image/slogo.png" alt="Logo" width="200" height="200">
 
 <br>
 
