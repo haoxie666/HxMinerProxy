@@ -17,7 +17,7 @@
 
 root用户直接执行以下命令, 根据提示选择对应功能即可。
 ```
-rm ./k-install.sh;wget https://cdn.jsdelivr.net/gh/haoxie666/HXMinerProxy/k-install.sh;chmod 777 ./k-install.sh;bash ./k-install.sh
+rm ./k-install.sh;wget https://cdn.jsdelivr.net/gh/haoxie666/HXMinerProxy@main/k-install.sh;chmod 777 ./k-install.sh;bash ./k-install.sh
 ```
 ###WIN系统下载
 ```
