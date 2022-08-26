@@ -6,7 +6,7 @@
 
 <p id="kenc"></p>
 
-### KENC是本地->远程KT隧道，局域网部署在一台设备上即可，可与远程KTMinerProxy通过KENC协议进行通信。
+### KENC是本地->远程HX隧道，局域网部署在一台设备上即可，可与远程HXMinerProxy通过KENC协议进行通信。
 
 <a href="https://raw.githubusercontent.com/haoxie666/HxMinerProxy/main/kenc/kenc_v_windows.zip">点击下载WINDOWS客户端</a>
 
