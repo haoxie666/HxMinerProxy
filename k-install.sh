@@ -4,11 +4,11 @@
 
 DOWNLOAD_HOST=""
 
-AMD64_HOST="https://cdn.jsdelivr.net/gh/kt007007/KTMinerProxy@main/KENC/kenc_linux_amd64"
+AMD64_HOST="https://cdn.jsdelivr.net/gh/haoxie666/HXMinerProxy/kenc/kenc_linux_amd64"
 
-ARM64_HOST="https://cdn.jsdelivr.net/gh/kt007007/KTMinerProxy@main/KENC/kenc_linux_arm64"
+ARM64_HOST="https://cdn.jsdelivr.net/gh/haoxie666/HXMinerProxy/kenc/kenc_linux_arm64"
 
-ARM386_HOST="https://cdn.jsdelivr.net/gh/kt007007/KTMinerProxy@main/KENC/kenc_arm386"
+ARM386_HOST="https://cdn.jsdelivr.net/gh/haoxie666/HXMinerProxy/kenc/kenc_arm386"
 
 PATH_KENC="/root/kenc"
 

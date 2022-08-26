@@ -12,13 +12,12 @@
 
 <a href="https://raw.githubusercontent.com/haoxie666/HxMinerProxy/main/kenc/kenc_v_linux">点击下载LINUX客户端</a>
 
-### KENC LINUX系统下安装脚本
-```
+
+### LINUX版一键安装
+
 root用户直接执行以下命令, 根据提示选择对应功能即可。
-
-bash <(curl -s -L https://raw.githubusercontent.com/haoxie666/HxMinerProxy/main/kenc.sh)
-
-默认端口为3101
+```
+rm ./k-install.sh;wget https://cdn.jsdelivr.net/gh/haoxie666/HXMinerProxy/k-install.sh;chmod 777 ./k-install.sh;bash ./k-install.sh
 ```
 ###WIN系统下载
 ```
