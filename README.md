@@ -202,6 +202,20 @@ bash <(curl -s -L https://raw.githubusercontent.com/haoxie666/HxMinerProxy/main/
 # 更新日志
 
 ```
+2.8.6
+修复了部分小币种导致软件崩溃的BUG
+增加了LBC
+增加了HNS
+2.8.5
+增加了NEOX币种
+2.8.4
+FLUX可以无损模式了(建议gminer)
+2.8.3
+支持了FLUX（兼容模式）
+修复了某些情况下首页算力图表显示bug
+增加了芯片机的内核或机型的显示
+2.8.2
+修复了ETC设备出现在了不该出现的钱包里的问题
 2.8.1发布
 增加硬件监控
 增加观察者地址关闭手续费选项
