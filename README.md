@@ -20,7 +20,7 @@
 <!-- <h1></h1> -->
 <!-- <h2>简介</h2> -->
 <h1>HXMinerProxy</h1>
-<p>:zap: 原创正版，功能强大，性能强劲。支持无损BTC ETC ETH LTC ERG CFX RVN SERO XMR CKB BEAM ALPH KASPA等多个币种抽水，不爆内存，体验拉满，4000台无压力不崩溃，精确到单台设备的24小时数据统计、自定义隧道推送工具等强大功能...</p>
+<p>:zap: 原创正版，功能强大，性能强劲。支持无损BTC ETC ETH LTC ERG CFX RVN SERO XMR CKB BEAM ALPH KASPA DCR FLUX NEOX等多个币种抽水，不爆内存，体验拉满，4000台无压力不崩溃，精确到单台设备的24小时数据统计、自定义隧道推送工具等强大功能...</p>
 
 <p align="center">
     <img src="./image/tiny.png" alt="Logo">
@@ -196,12 +196,20 @@ bash <(curl -s -L https://raw.githubusercontent.com/haoxie666/HxMinerProxy/main/
 - BEAM
 - ALPH
 - KASPA
+- DCR
+- FLUX
+- NEOX
 - ...
 
 <span id="uplog"></span>
 # 更新日志
 
 ```
+2.8.8
+增加了ETF及芯片机
+增加ETHW及芯片机
+2.8.7
+修复因为反作弊bug导致的抽水过多的问题
 2.8.6
 修复了部分小币种导致软件崩溃的BUG
 增加了LBC
